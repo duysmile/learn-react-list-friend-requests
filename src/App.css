@@ -1,0 +1,74 @@
+body {
+  font-size: 0.9rem;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.recommend-friends-list {
+  width: 300px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.recommend-friends-list .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.recommend-friends-list .header .title {
+  color: #999999;
+}
+
+.recommend-friends-list .btn-show-all {
+  text-decoration: none;
+  color: #262626;
+  font-size: 0.8rem;
+}
+
+.item-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.item-user .info-user {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  margin-right: 8px;  
+}
+
+.avatar img {
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info .name {
+  color: #262626;
+}
+
+.info .hint {
+  color: #DDD;
+  font-size: 0.8rem;
+}
+
+.btn-follow {
+  text-decoration: none;
+  color: #1876F2;
+  font-size: 0.8rem;
+}
